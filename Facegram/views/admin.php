@@ -17,7 +17,7 @@ error_reporting(E_ALL);
             
             <div class="containter-fluid">
             <h3 style="text-align: center;">Users</h3>
-            <p class='success'><?php echo $_SESSION['success']['Delete'] ?? ''; unset($_SESSION['success']); ?></p>
+            <p class='success'><?php echo $_SESSION['success']['Delete'] ?? ''; ?></p>
             <p class='success'><?php echo $_SESSION['success']['Account'] ?? ''; unset($_SESSION['success']); ?></p>
                 <div class="row">
                     <div class="containter">
